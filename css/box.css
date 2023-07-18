@@ -1,0 +1,212 @@
+body{
+    position: relative;
+}
+.main{
+    width: 512px;
+    height: 560px;
+    /*background: #3262ab;*/
+    position: absolute;
+    left: 491px;
+
+}
+.main .box{
+  padding-top: 50px;
+}
+ form {
+    margin: 60px;
+    margin-top: 15px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0px;
+}
+
+form input[type="text"],
+input[type="email"] {
+    display: block;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.main .box .box-img img{
+    width: 100%;
+    height: 275px;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    padding: 10px 0;
+    margin: 1px;
+    border: 1px solid transparent;
+    background: #3262ab;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 1s;
+    
+}
+.main .box p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main .box h3,h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.main .form-container span {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+
+}
+.form-container{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+#co:hover{
+    background:#fe5b3d ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .form-container .input-box select{
+    margin-left: 50px;
+    width: 140px;
+    height: 22px;
+
+}
+#pdate{
+   width: 238px;
+}
+#rdate{
+    width: 237px;
+ }
+.main .form-container #pick{
+    line-height: 4;
+}
+/*---------------------------------------------------------------*/
+.box2 {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box2 select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 400px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box2::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box2:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box2 select option {
+    padding: 30px;
+  }
+
+  #co {
+    margin-left: 50px;
+    width: 140px;
+    height: 37px;
+  }
+
+
+
+
+  /*new css*/
+
+  .modern-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .modern-table td {
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .modern-table td:last-child {
+    border-right: none;
+  }
+  
+  .modern-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .modern-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .modern-table th:last-child {
+    border-right: none;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-box span {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 120px;
+  }
+  
+  .input-box select,
+  .input-box input[type="date"],
+  .input-box input[type="time"] {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+  }
+  
+  .input-box select:focus,
+  .input-box input[type="date"]:focus,
+  .input-box input[type="time"]:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+  }
+  
